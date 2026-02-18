@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="fr">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  </head>
+
+<body>
+    <header>
+       
+        <nav>
+          <span>Mahira Manico</span>
+          <ul>
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#apropos">À propos</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#objectifs">Mes Objectifs</a></li>
+            <li><a href="#projets">Mes Projets</a></li>
+          </ul>
+        </nav>
+    </header>
+
+    <main>
+    <section class="intro" id="accueil">
+        <h1 class="name">Mahira Manico</h1>
+        <h2>Développeuse logiciel | Passionnée de Python</h2>
+        <p>Actuellement à la recherche d'une alternance en développement logiciel - Octobre 2026</p>
+        <a href="#projets">Voir mes projets</a>
+    </section>
+
+    <section class="intro-block" id="apropos">
+        <h2 class="name-intro">/ A propos de moi</h2>
+         <article class="block-about">
+            <section class="infos">
+          <p>Développeuse basée à <span class="highlight">Marseille</span>, mon parcours est tout sauf linéaire. Après une année en LLCER Anglais puis en Licence Arts Plastiques, j'ai réalisé que je voulais un métier qui me permette de <span class="highlight">créer</span>, d'<span class="highlight">innover</span> et de construire quelque chose de concret.</p>
+          <p>C'est comme ça que je suis tombée dans le code. Et aujourd'hui ? Je ne regrette rien.</p>
+          <p>Actuellement en <span class="highlight">Bachelor IT à La Plateforme</span> (Marseille), spécialisée en développement logiciel. J'apprends encore à trouver l'équilibre entre la perfection et la livraison, mais c'est ce qui me pousse à toujours m'améliorer.</p>
+          <p>En dehors du code, je suis passionnée de <span class="highlight">rock</span>, d'<span class="highlight">anime</span>, de <span class="highlight">jeux vidéo</span> et de musique. Cette créativité nourrit ma façon de concevoir mes projets.</p>
+          <p>Mon objectif ? Devenir <span class="highlight">Software Engineer</span> et donner vie à mes idées les plus ambitieuses.</p>
+            </section>
+        <img src="images/static/me.jpg" alt="Mahira Manico">
+        </article>
+    </section>
+
+ <section id="skills">
+  <h2 class="name">/ Skills</h2>
+
+  <input type="radio" name="skill-tabs" id="tab-hard-input" checked>
+  <input type="radio" name="skill-tabs" id="tab-soft-input">
+
+  <div class="skills-tabs">
+    <label for="tab-hard-input" class="tab-button">Hard Skills</label>
+    <label for="tab-soft-input" class="tab-button">Soft Skills</label>
+  </div>
+
+  <div class="skills-content">
+    <article class="content-hard">
+      <section class="skill-group">
+        <h4>Outils et IDE</h4>
+        <ul><li>Git</li><li>VS Code</li></ul>
+      </section>
+      <section class="skill-group">
+        <h4>Langages</h4>
+        <ul><li>Python</li><li>HTML/CSS</li></ul>
+      </section>
+      <section class="skill-group">
+        <h4>Base de données</h4>
+        <ul><li>SQL</li></ul>
+      </section>
+    </article>
+
+    <article class="content-soft">
+      <section class="skill-group">
+        <h4>Individuel</h4>
+        <ul><li>Polyvalence</li><li>Autonomie</li><li>Adaptabilité</li></ul>
+      </section>
+      <section class="skill-group">
+        <h4>Collectif</h4>
+        <ul><li>Esprit d'équipe</li><li>Communication</li></ul>
+      </section>
+    </article>
+  </div>
+</section>
+
+    <section id="objectifs">
+        <h2 class="name">/ Objectifs</h2>
+         <p>Mon ambition est simple : devenir <span class="highlight">Software Engineer</span> dans une entreprise de renom et acquérir une liberté financière qui me permette de voyager et de créer sans limites.</p>
+         <p>Pour moi, le <span class="highlight">code</span> n'est pas qu'un métier, c'est un <span class="highlight">outil</span> de liberté. La liberté de <span class="highlight">créer</span>, d'innover, et de construire la vie que je veux.</p>
+         <p>Mon objectif à court terme ? Trouver une <span class="highlight">alternance</span> stimulante qui me permette <span class="highlight">d'apprendre</span>, de grandir, et de poser les premières pierres de cette vision.</p>
+  </section>
+
+    <section id="projets">
+          <h2 class="name">/ Projets</h2>
+          <div class="projects-container">
+            <div class="project-cards">
+                <h3>Pokémon-Catch them all!</h3>
+                 <p>Jeu Pokémon avec système de combat complet, gestion des 18 types, évolution et sauvegarde en base de données SQL.</p>
+                 <div class="project-stack">
+                  <span>Python</span>
+                  <span>Pygame</span>
+                  <span>POO</span>
+                  <span>SQL</span>
+                  </div>
+                   <a href="https://github.com/mahira-manico/pokemon">Voir le Projet</a>
+            </div>
+            <div class="project-cards">
+               <div class="project-img">
+                <img class="static" src="images/static/fruit_slicer_static.png" alt="aperçu du jeu">
+                <img class="gif" src="images/gif/fruit_slicer.gif" alt="aperçu du jeu animé">
+               </div>
+                <h3>Fruit slicer</h3>
+                 <p>Jeu d'action inspiré de Fruit Ninja avec interface graphique, effets sonores et système de score.</p>
+                  <div class="project-stack">
+                  <span>Python</span>
+                  <span>Pygame</span>
+                  <span>POO</span>
+                  </div>
+                   <a href="https://github.com/mahira-manico/fruit-slicer">Voir le Projet</a>
+            </div>
+
+             <div class="project-cards">
+              <div class="project-img">
+                 <img class="static" src="images/static/pendu_static.png" alt="aperçu du jeu">
+                 <img class="gif" src="images/gif/hangman.gif" alt="aperçu du jeu animé">
+              </div>
+                <h3>Pendu</h3>
+                 <p> Version interactive du jeu du pendu avec interface graphique enfantine, sons et animations. Devinez le mot avant de perdre toutes vos vies !</p>
+                  <div class="project-stack">
+                  <span>Python</span>
+                  <span>Pygame</span>
+                  <span>POO</span>            
+                  </div>
+                   <a href="https://github.com/mahira-manico/pendu">Voir le Projet</a>
+            </div>
+             <div class="project-cards">
+               <div class="project-img">
+                <img class="static" src="images/static/calculator_static.png" alt="aperçu du jeu">
+                <img class="gif" src="images/gif/calculator.gif" alt="aperçu du jeu animé">
+               </div>
+                <h3>Calculatrice</h3>
+                 <p> Calculatrice en ligne de commande supportant les opérations arithmétiques de base.</p>
+                  <div class="project-stack">
+                  <span>Python</span>
+                  </div>
+                   <a href="https://github.com/mahira-manico/my_calculator">Voir le Projet</a>
+            </div>
+             <div class="project-cards">
+               <div class="project-img">
+                <img class="static" src="images/static/clock_static.png" alt="aperçu du jeu">
+                <img class="gif" src="images/gif/clock.gif" alt="aperçu du jeu animé">
+               </div>
+                <h3>Horloge de Mamie</h3>
+                 <p>Horloge numérique affichée dans le terminal avec mise à jour en temps réel avec alarme, pause du temps et format 24h/12h</p>
+                  <div class="project-stack">
+                  <span>Python</span>
+                  </div>
+                   <a href="https://github.com/mahira-manico/clock_project">Voir le Projet</a>
+             </div>
+            </div>
+    </section>
+     </main>
+
+    <footer>
+        <div class="contact">
+
+          <a href="https://github.com/mahira-manico" target="_blank" alt="lien Github">
+            <i class="fa-brands fa-github"></i>
+          </a>
+       
+          <a href="mailto:mahira.manico@laplateforme.io" target="_blank" alt="lien Gmail">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+
+          <a href="https://www.linkedin.com/in/mahira-manico" alt="lien Linkedin">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </div>
+        <div class="rights">
+          <p>Construit et designé par Mahira Manico.</p>
+          <p>2026 - Tous droits réservés. ©</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+    
